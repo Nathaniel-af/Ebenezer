@@ -10,14 +10,14 @@ import video from "../assets/video.mp4";
 import Nav from "../components/Nav";
 import Swipper from "../components/swiper";
 import Typed from "react-typed";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 import image1 from "../assets/services/image1-min.png";
 import image2 from "../assets/services/image2-min.png";
 import image3 from "../assets/services/image3-min.png";
 import image4 from "../assets/services/image4-min.png";
 import image5 from "../assets/services/image5-min.png";
 import image6 from "../assets/services/image6-min.png";
-import aboutus from "../assets/square.webp";
+import aboutus from "../assets/aboutus.webp";
 import { GrNext } from "react-icons/gr";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import Blog from "../components/blog";
@@ -79,7 +79,7 @@ function Home() {
               OUR SERVICES
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              YOYA Hospital offers the following services
+              Ebenezer Medical Center offers the following services
             </p>
           </div>
           <motion.div
@@ -114,10 +114,10 @@ function Home() {
                   Inpatient Services
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Yoya hospital has enough space to accommodate inpatients
-                  including an Adult Intensive care unit (ICU). Our services are
-                  geared towards ensuring that the patients receive quality care
-                  that will improve their prognosis.
+                  Ebenezer Medical Center has enough space to accommodate
+                  inpatients including an Adult Intensive care unit. Our
+                  services are geared towards ensuring that the patients receive
+                  quality care that will improve their prognosis.
                 </p>
               </div>
             </motion.div>
@@ -147,11 +147,11 @@ function Home() {
                   MCH and Maternity
                 </h2>
                 <p className="leading-relaxed  text-base">
-                  At YOYA, we have dedicated OB/GYN specialists in the
-                  department. In addition our nurses are highly skilled and
-                  caring for women during pregnancy and childbirth. We have a
-                  well organized Neonatal Intensive Care Unit (NICU) that
-                  includes a Phototherapy Unit.
+                  we have dedicated OB/GYN specialists in the department. In
+                  addition our nurses are highly skilled and caring for women
+                  during pregnancy and childbirth. We have a well organized
+                  Neonatal Intensive Care Unit (NICU) that includes a
+                  Phototherapy Unit.
                 </p>
               </div>
             </motion.div>
@@ -180,9 +180,7 @@ function Home() {
                 <p className="leading-relaxed text-base">
                   With the expertise of skilled professionals, we provide
                   high-quality diagnostic and therapeutic radiology services. We
-                  also have a digital X-ray system and a 4D color doppler
-                  ultrasound machine. We also provide endoscopic services
-                  (Colonoscopy, Sigmoidoscopy and Gastroduodenoscopy)
+                  also have 4D color doppler ultrasound machine and ECG .
                 </p>
               </div>
             </motion.div>
@@ -413,12 +411,11 @@ function Home() {
               <p className="inline border-b-2 text-[#1990A2] font-semibold">
                 OUR STORY
               </p>{" "}
-              YOYA Hospital is a hospital founded by specialists and
-              sub-specialists with a commitment to providing high-quality
-              medical care in a facility that provides affordable and accessible
-              quality health care to the public, with a strong emphasis on
-              enhancing the dignity of the sick.We rely on our motto,
-              "Excellence is our passion," to provide a healing touch to
+              Ebenezer Medical Center is founded with a commitment to providing
+              high-quality medical care in a facility that provides affordable
+              and accessible quality health care to the public, with a strong
+              emphasis on enhancing the dignity of the sick.We rely on our
+              motto, "Excellence is our passion," to provide a healing touch to
               everyone who enters our hospital. In the same vein, we strive to
               provide our customers with comprehensive, evidence-based health
               care.
@@ -477,7 +474,8 @@ function Home() {
       </div>
       {/* Testimonioal */}
       <div className="title-font sm:text-2xl text-xl mt-20 mb-6 md:text-3xl  font-semibold text-gray-900 flex justify-center gap-2 ">
-        What patients say <h1 className="inline text-[#1990A2]">About YOYA</h1>
+        What patients say{" "}
+        <h1 className="inline text-[#1990A2]">About Ebenezer</h1>
       </div>
       <motion.div
         className="w-full flex flex-col md:flex-row gap-4 mb-8 md:mb-0 flex-between items-center p-8"
@@ -511,7 +509,7 @@ function Home() {
             </a>
             <div className="flex flex-col ml-2 justify-between">
               <span className="font-semibold text-[#1990A2] text-sm">
-                Firaol Birhanu
+                Person
               </span>
               <span className=" text-xs flex items-center">CEO of HABESHA</span>
             </div>
@@ -545,10 +543,10 @@ function Home() {
             </a>
             <div className="flex flex-col ml-2 justify-between">
               <span className="font-semibold text-[#1990A2] text-sm">
-                Firaol Birhanu
+                Person
               </span>
               <span className=" text-xs flex items-center">
-                employee of yoya
+                employee of ebenezer
               </span>
             </div>
           </div>
@@ -581,7 +579,7 @@ function Home() {
             </a>
             <div className="flex flex-col ml-2 justify-between">
               <span className="font-semibold text-[#1990A2] text-sm">
-                Firaol Birhanu
+                person
               </span>
               <span className="text-xs flex items-center">Customer</span>
             </div>
@@ -622,7 +620,7 @@ function Home() {
               scrolling="no"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.578652733735!2d39.25757541529175!3d8.540220998802674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b210f1cfd3ef7%3A0x62970f3c76619070!2sYoya%20hospital!5e0!3m2!1sen!2set!4v1661762090595!5m2!1sen!2set"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.6292433780773!2d31.592780314762837!3d4.833557996490102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdbe86efd0955b4cb!2zNMKwNTAnMDAuOCJOIDMxwrAzNSc0MS45IkU!5e0!3m2!1sen!2set!4v1666007509620!5m2!1sen!2set"
             ></iframe>
 
             <div className="bg-[#1990A2] relative flex flex-wrap p-3 rounded shadow-md text-xs md:text-base text-white">
@@ -631,20 +629,20 @@ function Home() {
                   ADDRESS
                 </h2>
                 <p className="mt-1">
-                  Adama,Oromia,Ethiopia.
+                  Hai Atlabara,Juba Town Along tombura road ,
                   <br />
-                  Near Robi Hotel
+                  Near police office south Sudan
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-teal-300 tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="leading-relaxed">support@yoyahospital.org</a>
+                <a className="leading-relaxed">support@ebenezer.com</a>
                 <h2 className="title-font font-semibold text-teal-300 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">0228 125646</p>
+                <p className="leading-relaxed">+211980298173</p>
               </div>
             </div>
           </div>
@@ -771,7 +769,7 @@ function Home() {
                     SEND
                   </button>
                   <p className="text-xs text-gray-500 mt-3">
-                    yoya hospital customer support
+                    ebenezer customer support
                   </p>
                 </Form>
               )}
@@ -784,9 +782,9 @@ function Home() {
       <footer className="p-4 h-[300px] w-full mt-8 rounded-lg shadow md:px-20 flex flex-col justify-center  bg-teal-700 ">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="#" className="flex items-center mb-4 sm:mb-0">
-            <img src={logo} className="mr-3 h-16" alt="YOYA Logo" />
+            <img src={logo} className="mr-3 h-16" alt="Ebenezer Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap  text-white">
-              YOYA Hospital
+              EBENEZER Medical center
             </span>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 ">
@@ -823,7 +821,7 @@ function Home() {
         </div>
         <hr className="my-6 border-white sm:mx-auto  lg:my-8" />
         <span className="block text-sm text-white sm:text-center ">
-          © 2022 YOYA™ . All Rights Reserved.
+          © 2022 Ebenezer™ . All Rights Reserved.
         </span>
       </footer>
     </>

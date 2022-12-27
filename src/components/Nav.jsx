@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BsFillTelephoneFill, BsFacebook, BsTelegram } from "react-icons/bs";
 import { BiCalendar } from "react-icons/bi";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 //import logo from "../assets/logoholy-min.png";
 import { useNavigate, Link } from "react-router-dom";
 
@@ -19,26 +19,29 @@ function Nav({ aboutref, serviceref, blogref, contactref, handleScroll }) {
       <div className=" flex relative sm:flex-col justify-between flex-row p-5 sm:p-0 ">
         <div className="bg-[#005E6C] md:flex items-center justify-between  h-12 px-4 hidden text-white">
           <div className="flex ml-auto mr-5 ">
-            <div className="flex justify-between w-[500px] items-center">
+            <div className="flex justify-between w-[400px] items-center">
               <BsFillTelephoneFill></BsFillTelephoneFill>
-              <a href="tel:0943434327">0943 434327</a>
+              <a href="tel:+211980298173">+211980298173</a>
               <span className="h-5 bg-white w-[2px]"></span>
-              <a href="tel:0962626234">0962 626234</a>
+              <a href="tel:+211917795515">+211917795515</a>
               <span className="h-5 bg-white w-[2px]"></span>
-              <a href="tel:0222120599">0222 120599</a>
-              <a href="https://facebook.com/YOYAHOSPITAL" target="_blank">
+
+              <a
+                href="https://www.facebook.com/Ebenezermedical"
+                target="_blank"
+              >
                 <BsFacebook size={25}></BsFacebook>
               </a>
-              <a href="https://t.me/+M3bjPP4yT1hlZDM8" target="_blank">
+              {/* <a href="https://t.me/+M3bjPP4yT1hlZDM8" target="_blank">
                 <BsTelegram size={25}></BsTelegram>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
         <div className="bg-white flex justify-end items-center px-14 sm:py-6 ">
           <Link to="/">
             <img
-              className="absolute h-12  md:h-36 lg:h-48   md:top-[10px] top-1 left-0 z-30"
+              className="absolute h-12  md:h-36 lg:h-44   md:top-[10px] top-1 left-4 z-30 "
               src={logo}
               alt=""
             />
@@ -152,16 +155,15 @@ function Nav({ aboutref, serviceref, blogref, contactref, handleScroll }) {
           </ul>
           <div className="flex flex-col justify-center items-center gap-2">
             <BsFillTelephoneFill size={20} />
-            <a href="tel:0943434327">0943 434327</a>
-            <a href="tel:0962626234">0962 626234</a>
-            <a href="tel:0222120599">0222 120599</a>
+            <a href="tel:+211980298173">+211980298173</a>
+            <a href="tel:+211917795515">+211917795515</a>
 
             <div className="flex gap-4">
-              <a href="https://facebook.com/YOYAHOSPITAL" target="_blank">
+              <a
+                href="https://www.facebook.com/Ebenezermedical"
+                target="_blank"
+              >
                 <BsFacebook size={24}></BsFacebook>
-              </a>
-              <a href="https://t.me/+M3bjPP4yT1hlZDM8" target="_blank">
-                <BsTelegram size={24}></BsTelegram>
               </a>
             </div>
           </div>
